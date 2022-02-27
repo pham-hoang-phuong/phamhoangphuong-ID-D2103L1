@@ -1,0 +1,248 @@
+.background-color{
+    background-color: #e8e4d4;
+}
+.header{
+    /* background-color: rgba(149, 111, 70,0.5); */
+    padding: 32px 0;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+.nav-1 ul{
+    list-style: none;
+}
+.nav-1 li a{
+    margin-right: 22px;
+    color: #282624;
+}
+.nav-1 li:hover{
+    opacity: 50%;
+}
+.nav-2 ul{
+    list-style: none;
+}
+.nav-2 li a{
+    margin-left: 22px;
+    color: #282624;
+}
+.nav-2 li a img{
+    margin: 0 22px 0 40px;
+}
+.nav-2 li:hover{
+    opacity: 50%;
+}
+.logo img{
+    width: 100%;
+}
+.banner{
+   padding: 300px 0 200px;
+   background: url("../image/ceramics.jpg");
+   background-size: cover;
+   background-position: center;
+   /* height: 100vh; */
+}
+p{
+    margin: 22px 50px 32px 0;
+}
+/* ......section-1..... */
+.card{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+.thumbnail-img img{
+   width: 100%;
+   position: absolute;
+}
+.thumbnail-content{
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 100%;
+}
+.thumbnail-content:hover{
+    display: none;
+}
+/* ......section-1..... */
+/* ......section-2..... */
+.section-2{
+    position: relative;
+}
+.box-sec-2{
+    width: 50%;
+    height: 500px;
+    background-color: #956f46;
+    position: absolute;
+    top: 300px;
+}
+.sec-left{
+    position: relative;
+}
+.image-s2-1{
+    background-color: antiquewhite;
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+    position: absolute;
+    right: -12px;
+}
+.image-s2-1 img{
+    height: 100%;
+}
+.sec-right{
+    position: relative;
+}
+.image-s2-2{
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    position: absolute;
+    left: -12px;
+    top: 350px;
+}
+.image-s2-2 img{
+    width: 100%;
+}
+.content-sec-right-1 h2{
+    padding: 80px 50px 15px 50px;
+}
+.content-sec-right-1 a{
+    margin: 0 50px;
+}
+.content-sec-right-2{
+    margin: 450px 50px 0 50px;
+}
+/* ......section-2..... */
+/* ......section-3..... */
+.section-3{
+    background: url("../image/s3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+.content-sec-3{
+    background-color: #956f46;
+    position: absolute;
+    top: 100px;
+}
+.content-sec-3 p{
+    margin: 20px 50px 50px 50px;
+}
+.content-sec-3 h2{
+    margin: 50px 50px 0 50px ;
+}
+.box-sec-3{
+    position: relative;
+}
+/* ......section-3..... */
+/* ......section-4..... */
+.container-s4{
+    position: relative;
+}
+.image-s4-1{
+    width: 400px;
+    height: 280px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 200px;
+    z-index: 20;
+}
+.image-s4-1 img{
+    width: 100%;
+}
+.image-s4-2{
+    width: 400px;
+    height: 280px;
+    overflow: hidden;
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    z-index: 25;
+}
+.image-s4-2 img{
+    width: 100%;
+}
+.image-s4-3{
+    width: 400px;
+    height: 280px;
+    overflow: hidden;
+    position: absolute;
+    top: 300px;
+    right: 150px;
+    z-index: 30;
+}
+.image-s4-3 img{
+    width: 100%;
+}
+.content-s4-1{
+    width: 350px;
+    margin: 100px 0 0 0;
+    position: absolute;
+    top: 100x;
+    right: 0;
+    z-index: 40;
+}
+.content-s4-2{
+    width: 500px;
+    margin: 530px 0 0 50px;
+    position: absolute;
+    top: 1000x;
+    left: 0;
+    z-index: 45;
+}
+.box-s4{
+    width: 900px;
+    height: 500px;
+    background-color: #956f46;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 15;
+}
+.section-4{
+    height: 730px;
+}
+/* ......section-4..... */
+/* ......footer..... */
+.footer{
+    background-color: #956f46;
+    padding: 120px 0;
+}
+.footer-logo{
+    width: 150px;
+    margin: 0 0 55% 0;
+    overflow: hidden;
+}
+.footer-logo img{
+    width: 100%;
+}
+.collum-1 ul{
+    list-style: none;
+}
+.collum-1 li a{
+    color: #282624;
+}
+.collum-2 ul{
+    list-style: none;
+}
+.collum-2 li a{
+    color: #282624;
+}
+.border-btn{
+    border: 2px solid #282624;
+}
+.copyright{
+    background-color: #e8e4d4;
+    text-align: center;
+    padding: 10px 0;
+}
+.btn-sm-primary:hover{
+    opacity: 50%;
+}
+.btn-lg-primary:hover{
+    opacity: 50%;
+}
